@@ -1,0 +1,1670 @@
+{
+    "instruments": [
+        {
+            "panel_number": 1,
+            "name": "Grand Piano",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 0
+        },
+        {
+            "panel_number": 2,
+            "name": "Bright Piano",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 1
+        },
+        {
+            "panel_number": 3,
+            "name": "Honky-tonk Piano",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 3
+        },
+        {
+            "panel_number": 4,
+            "name": "Funky Electric Piano",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 4
+        },
+        {
+            "panel_number": 5,
+            "name": "DX Electric Piano",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 5
+        },
+        {
+            "panel_number": 6,
+            "name": "MIDI Grand Piano",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 2
+        },
+        {
+            "panel_number": 7,
+            "name": "CP 80",
+            "msb": 0,
+            "lsb": 113,
+            "program_change": 2
+        },
+        {
+            "panel_number": 8,
+            "name": "Hyper Electric Piano",
+            "msb": 0,
+            "lsb": 113,
+            "program_change": 5
+        },
+        {
+            "panel_number": 9,
+            "name": "Bell Electric Piano",
+            "msb": 0,
+            "lsb": 114,
+            "program_change": 5
+        },
+        {
+            "panel_number": 10,
+            "name": "Harpsichord",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 6
+        },
+        {
+            "panel_number": 11,
+            "name": "Clavi",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 7
+        },
+        {
+            "panel_number": 12,
+            "name": "Celesta",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 8
+        },
+        {
+            "panel_number": 13,
+            "name": "Vibraphone",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 11
+        },
+        {
+            "panel_number": 14,
+            "name": "Marimba",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 12
+        },
+        {
+            "panel_number": 15,
+            "name": "Xylophone",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 13
+        },
+        {
+            "panel_number": 16,
+            "name": "Tubular Bells",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 14
+        },
+        {
+            "panel_number": 17,
+            "name": "Timpani",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 47
+        },
+        {
+            "panel_number": 18,
+            "name": "Steel Drums",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 114
+        },
+        {
+            "panel_number": 19,
+            "name": "Music Box",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 10
+        },
+        {
+            "panel_number": 20,
+            "name": "Jazz Organ 1",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 16
+        },
+        {
+            "panel_number": 21,
+            "name": "Jazz Organ 2",
+            "msb": 0,
+            "lsb": 113,
+            "program_change": 16
+        },
+        {
+            "panel_number": 22,
+            "name": "Jazz Organ 3",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 17
+        },
+        {
+            "panel_number": 23,
+            "name": "Full Organ",
+            "msb": 0,
+            "lsb": 116,
+            "program_change": 16
+        },
+        {
+            "panel_number": 24,
+            "name": "Rock Organ 1",
+            "msb": 0,
+            "lsb": 114,
+            "program_change": 18
+        },
+        {
+            "panel_number": 25,
+            "name": "Rock Organ 2",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 18
+        },
+        {
+            "panel_number": 26,
+            "name": "16'+2' Organ",
+            "msb": 0,
+            "lsb": 118,
+            "program_change": 16
+        },
+        {
+            "panel_number": 27,
+            "name": "16'+4' Organ",
+            "msb": 0,
+            "lsb": 119,
+            "program_change": 16
+        },
+        {
+            "panel_number": 28,
+            "name": "Church Organ",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 19
+        },
+        {
+            "panel_number": 29,
+            "name": "Reed Organ",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 20
+        },
+        {
+            "panel_number": 30,
+            "name": "Musette Accordion",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 21
+        },
+        {
+            "panel_number": 31,
+            "name": "Traditional Accordion",
+            "msb": 0, 
+            "lsb": 113, 
+            "program_change": 21
+        },
+        {
+            "panel_number": 32,
+            "name": "Bandoneon",
+            "msb": 0, 
+            "lsb": 113, 
+            "program_change": 23
+        },
+        {
+            "panel_number": 33,
+            "name": "Classical Guitar",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 24
+        },
+        {
+            "panel_number": 34,
+            "name": "Folk Guitar",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 25
+        },
+        {
+            "panel_number": 35,
+            "name": "12Strings Guitar",
+            "msb": 0,
+            "lsb": 113,
+            "program_change": 25
+        },
+        {
+            "panel_number": 36,
+            "name": "Jazz Guitar",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 26
+        },
+        {
+            "panel_number": 37,
+            "name": "Octave Guitar",
+            "msb": 0,
+            "lsb": 113,
+            "program_change": 26
+        },
+        {
+            "panel_number": 38,
+            "name": "Clean Guitar",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 27
+        },
+        {
+            "panel_number": 39,
+            "name": "Muted Guitar",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 28
+        },
+        {
+            "panel_number": 40,
+            "name": "Overdriven Guitar",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 29
+        },
+        {
+            "panel_number": 41,
+            "name": "Distortion Guitar",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 30
+        },
+        {
+            "panel_number": 42,
+            "name": "Acoustic Bass",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 32
+        },
+        {
+            "panel_number": 43,
+            "name": "Finger Bass",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 33
+        },
+        {
+            "panel_number": 44,
+            "name": "Pick Bass",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 34
+        },
+        {
+            "panel_number": 45,
+            "name": "Fretless Bass",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 35
+        },
+        {
+            "panel_number": 46,
+            "name": "Slap Bass",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 36
+        },
+        {
+            "panel_number": 47,
+            "name": "Synth Bass",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 38
+        },
+        {
+            "panel_number": 48,
+            "name": "Techno Bass",
+            "msb": 0,
+            "lsb": 113,
+            "program_change": 38
+        },
+        {
+            "panel_number": 49,
+            "name": "Dance Bass",
+            "msb": 0,
+            "lsb": 113,
+            "program_change": 39
+        },
+        {
+            "panel_number": 50,
+            "name": "Strings",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 48
+        },
+        {
+            "panel_number": 51,
+            "name": "Chamber Strings",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 49
+        },
+        {
+            "panel_number": 52,
+            "name": "Synth Strings",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 50
+        },
+        {
+            "panel_number": 53,
+            "name": "Slow Strings",
+            "msb": 0,
+            "lsb": 113,
+            "program_change": 49
+        },
+        {
+            "panel_number": 54,
+            "name": "Tremolo Strings",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 44
+        },
+        {
+            "panel_number": 55,
+            "name": "Pizzicato Strings",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 45
+        },
+        {
+            "panel_number": 56,
+            "name": "Choir",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 52
+        },
+        {
+            "panel_number": 57,
+            "name": "Choir Aahs",
+            "msb": 0,
+            "lsb": 113,
+            "program_change": 52
+        },
+        {
+            "panel_number": 58,
+            "name": "Choir Oohs",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 53
+        },
+        {
+            "panel_number": 59,
+            "name": "Synth Choir",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 54
+        },
+        {
+            "panel_number": 60,
+            "name": "Orchestra Hit",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 55
+        },
+        {
+            "panel_number": 61,
+            "name": "Violin",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 40
+        },
+        {
+            "panel_number": 62,
+            "name": "Cello",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 42
+        },
+        {
+            "panel_number": 63,
+            "name": "Contrabass",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 43
+        },
+        {
+            "panel_number": 64,
+            "name": "Banjo",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 105
+        },
+        {
+            "panel_number": 65,
+            "name": "Harp",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 46
+        },
+        {
+            "panel_number": 66,
+            "name": "Trumpet",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 56
+        },
+        {
+            "panel_number": 67,
+            "name": "Muted Trumpet",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 59
+        },
+        {
+            "panel_number": 68,
+            "name": "Trombone",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 57
+        },
+        {
+            "panel_number": 69,
+            "name": "Trombone Section",
+            "msb": 0,
+            "lsb": 113,
+            "program_change": 57
+        },
+        {
+            "panel_number": 70,
+            "name": "French Horn",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 60
+        },
+        {
+            "panel_number": 71,
+            "name": "Tuba",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 58
+        },
+        {
+            "panel_number": 72,
+            "name": "Brass Section",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 61
+        },
+        {
+            "panel_number": 73,
+            "name": "Synth Brass",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 62
+        },
+        {
+            "panel_number": 74,
+            "name": "Jump Brass",
+            "msb": 0,
+            "lsb": 113,
+            "program_change": 62
+        },
+        {
+            "panel_number": 75,
+            "name": "Techno Brass",
+            "msb": 0,
+            "lsb": 114,
+            "program_change": 62
+        },
+        {
+            "panel_number": 76,
+            "name": "Soprano Sax",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 64
+        },
+        {
+            "panel_number": 77,
+            "name": "Alto Sax",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 65
+        },
+        {
+            "panel_number": 78,
+            "name": "Tenor Sax",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 66
+        },
+        {
+            "panel_number": 79,
+            "name": "Baritone Sax",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 67
+        },
+        {
+            "panel_number": 80,
+            "name": "Oboe",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 68
+        },
+        {
+            "panel_number": 81,
+            "name": "English Horn",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 69
+        },
+        {
+            "panel_number": 82,
+            "name": "Bassoon",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 70
+        },
+        {
+            "panel_number": 83,
+            "name": "Clarinet",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 71
+        },
+        {
+            "panel_number": 84,
+            "name": "Harmonica",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 22
+        },
+        {
+            "panel_number": 85,
+            "name": "Piccolo",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 72
+        },
+        {
+            "panel_number": 86,
+            "name": "Flute",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 73
+        },
+        {
+            "panel_number": 87,
+            "name": "Pan Flute",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 75
+        },
+        {
+            "panel_number": 88,
+            "name": "Recorder",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 74
+        },
+        {
+            "panel_number": 89,
+            "name": "Ocarina",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 79
+        },
+        {
+            "panel_number": 90,
+            "name": "Square Lead",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 80
+        },
+        {
+            "panel_number": 91,
+            "name": "Sawtooth Lead",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 81
+        },
+        {
+            "panel_number": 92,
+            "name": "Voice Lead",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 85
+        },
+        {
+            "panel_number": 93,
+            "name": "Crystal",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 98
+        },
+        {
+            "panel_number": 94,
+            "name": "Brightness",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 100
+        },
+        {
+            "panel_number": 95,
+            "name": "Analog Lead",
+            "msb": 0,
+            "lsb": 115,
+            "program_change": 81
+        },
+        {
+            "panel_number": 96,
+            "name": "Fantasia",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 88
+        },
+        {
+            "panel_number": 97,
+            "name": "Bell Pad",
+            "msb": 0,
+            "lsb": 113,
+            "program_change": 100
+        },
+        {
+            "panel_number": 98,
+            "name": "Xenon Pad",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 91
+        },
+        {
+            "panel_number": 99,
+            "name": "Angels",
+            "msb": 0, 
+            "lsb": 112, 
+            "program_change": 94
+        },
+        {
+            "panel_number": 100,
+            "name": "Dark Moon",
+            "msb": 0,
+            "lsb": 113,
+            "program_change": 89
+        },
+        {
+            "panel_number": 101,
+            "name": "Standard Kit 1",
+            "msb": 127,
+            "lsb": 0,
+            "program_change": 0
+        },
+        {
+            "panel_number": 102,
+            "name": "Standard Kit 2",
+            "msb": 127,
+            "lsb": 0,
+            "program_change": 1
+        },
+        {
+            "panel_number": 103,
+            "name": "Room Kit",
+            "msb": 127,
+            "lsb": 0,
+            "program_change": 8
+        },
+        {
+            "panel_number": 104,
+            "name": "Rock Kit",
+            "msb": 127,
+            "lsb": 0,
+            "program_change": 16
+        },
+        {
+            "panel_number": 105,
+            "name": "Electronic Kit",
+            "msb": 127,
+            "lsb": 0,
+            "program_change": 24
+        },
+        {
+            "panel_number": 106,
+            "name": "Analog Kit",
+            "msb": 127,
+            "lsb": 0,
+            "program_change": 25
+        },
+        {
+            "panel_number": 107,
+            "name": "Dance Kit",
+            "msb": 127,
+            "lsb": 0,
+            "program_change": 27
+        },
+        {
+            "panel_number": 108,
+            "name": "Jazz Kit",
+            "msb": 127,
+            "lsb": 0,
+            "program_change": 32
+        },
+        {
+            "panel_number": 109,
+            "name": "Brush Kit",
+            "msb": 127,
+            "lsb": 0,
+            "program_change": 40
+        },
+        {
+            "panel_number": 110,
+            "name": "Symphony Kit",
+            "msb": 127,
+            "lsb": 0,
+            "program_change": 48
+        },
+        {
+            "panel_number": 111,
+            "name": "GM Acoustic Grand Piano",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 0
+        },
+        {
+            "panel_number": 112,
+            "name": "GM Bright Acoustic Piano",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 1
+        },
+        {
+            "panel_number": 113,
+            "name": "GM Electric Grand Piano",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 2
+        },
+        {
+            "panel_number": 114,
+            "name": "GM Honky-tonk Piano",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 3
+        },
+        {
+            "panel_number": 115,
+            "name": "GM Electric Piano 1",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 4
+        },
+        {
+            "panel_number": 116,
+            "name": "GM Electric Piano 2",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 5
+        },
+        {
+            "panel_number": 117,
+            "name": "GM Harpsichord",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 6
+        },
+        {
+            "panel_number": 118,
+            "name": "GM Clavi",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 7
+        },
+        {
+            "panel_number": 119,
+            "name": "GM Celesta",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 8
+        },
+        {
+            "panel_number": 120,
+            "name": "GM Glockenspiel",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 9
+        },
+        {
+            "panel_number": 121,
+            "name": "GM Music Box",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 10
+        },
+        {
+            "panel_number": 122,
+            "name": "GM Vibraphone",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 11
+        },
+        {
+            "panel_number": 123,
+            "name": "GM Marimba",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 12
+        },
+        {
+            "panel_number": 124,
+            "name": "GM Xylophone",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 13
+        },
+        {
+            "panel_number": 125,
+            "name": "GM Tubular Bells",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 14
+        },
+        {
+            "panel_number": 126,
+            "name": "GM Dulcimer",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 15
+        },
+        {
+            "panel_number": 127,
+            "name": "GM Drawbar Organ",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 16
+        },
+        {
+            "panel_number": 128,
+            "name": "GM Percussive Organ",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 17
+        },
+        {
+            "panel_number": 129,
+            "name": "GM Rock Organ",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 18
+        },
+        {
+            "panel_number": 130,
+            "name": "GM Church Organ",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 19
+        },
+        {
+            "panel_number": 131,
+            "name": "GM Reed Organ",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 20
+        },
+        {
+            "panel_number": 132,
+            "name": "GM Accordion",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 21
+        },
+        {
+            "panel_number": 133,
+            "name": "GM Harmonica",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 22
+        },
+        {
+            "panel_number": 134,
+            "name": "GM Tango Accordion",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 23
+        },
+        {
+            "panel_number": 135,
+            "name": "GM Acoustic Guitar (nylon)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 24
+        },
+        {
+            "panel_number": 136,
+            "name": "GM Acoustic Guitar (steel)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 25
+        },
+        {
+            "panel_number": 137,
+            "name": "GM Electric Guitar (jazz)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 26
+        },
+        {
+            "panel_number": 138,
+            "name": "GM Electric Guitar (clean)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 27
+        },
+        {
+            "panel_number": 139,
+            "name": "GM Electric Guitar (muted)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 28
+        },
+        {
+            "panel_number": 140,
+            "name": "GM Overdriven Guitar",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 29
+        },
+        {
+            "panel_number": 141,
+            "name": "GM Distortion Guitar",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 30
+        },
+        {
+            "panel_number": 142,
+            "name": "GM Guitar Harmonics",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 31
+        },
+        {
+            "panel_number": 143,
+            "name": "GM Acoustic Bass",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 32
+        },
+        {
+            "panel_number": 144,
+            "name": "GM Electric Bass (finger)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 33
+        },
+        {
+            "panel_number": 145,
+            "name": "GM Electric Bass (pick)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 34
+        },
+        {
+            "panel_number": 146,
+            "name": "GM Fretless Bass",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 35
+        },
+        {
+            "panel_number": 147,
+            "name": "GM Slap Bass 1",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 36
+        },
+        {
+            "panel_number": 148,
+            "name": "GM Slap Bass 2",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 37
+        },
+        {
+            "panel_number": 149,
+            "name": "GM Synth Bass 1",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 38
+        },
+        {
+            "panel_number": 150,
+            "name": "GM Synth Bass 2",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 39
+        },
+        {
+            "panel_number": 151,
+            "name": "GM Violin",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 40
+        },
+        {
+            "panel_number": 152,
+            "name": "GM Viola",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 41
+        },
+        {
+            "panel_number": 153,
+            "name": "GM Cello",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 42
+        },
+        {
+            "panel_number": 154,
+            "name": "GM Contrabass",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 43
+        },
+        {
+            "panel_number": 155,
+            "name": "GM Tremolo Strings",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 44
+        },
+        {
+            "panel_number": 156,
+            "name": "GM Pizzicato Strings",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 45
+        },
+        {
+            "panel_number": 157,
+            "name": "GM Orchestral Harp",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 46
+        },
+        {
+            "panel_number": 158,
+            "name": "GM Timpani",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 47
+        },
+        {
+            "panel_number": 159,
+            "name": "GM Strings Ensemble 1",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 48
+        },
+        {
+            "panel_number": 160,
+            "name": "GM Strings Ensemble 2",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 49
+        },
+        {
+            "panel_number": 161,
+            "name": "GM Synth Strings 1",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 50
+        },
+        {
+            "panel_number": 162,
+            "name": "GM Synth Strings 2",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 51
+        },
+        {
+            "panel_number": 163,
+            "name": "GM Choir Aahs",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 52
+        },
+        {
+            "panel_number": 164,
+            "name": "GM Voice Oohs",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 53
+        },
+        {
+            "panel_number": 165,
+            "name": "GM Synth Voice",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 54
+        },
+        {
+            "panel_number": 166,
+            "name": "GM Orchestra Hit",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 55
+        },
+        {
+            "panel_number": 167,
+            "name": "GM Trumpet",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 56
+        },
+        {
+            "panel_number": 168,
+            "name": "GM Trombone",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 57
+        },
+        {
+            "panel_number": 169,
+            "name": "GM Tuba",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 58
+        },
+        {
+            "panel_number": 170,
+            "name": "GM Muted Trumpet",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 59
+        },
+        {
+            "panel_number": 171,
+            "name": "GM French Horn",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 60
+        },
+        {
+            "panel_number": 172,
+            "name": "GM Brass Section",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 61
+        },
+        {
+            "panel_number": 173,
+            "name": "GM Synth Brass 1",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 62
+        },
+        {
+            "panel_number": 174,
+            "name": "GM Synth Brass 2",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 63
+        },
+        {
+            "panel_number": 175,
+            "name": "GM Soprano Sax",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 64
+        },
+        {
+            "panel_number": 176,
+            "name": "GM Alto Sax",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 65
+        },
+        {
+            "panel_number": 177,
+            "name": "GM Tenor Sax",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 66
+        },
+        {
+            "panel_number": 178,
+            "name": "GM Baritone Sax",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 67
+        },
+        {
+            "panel_number": 179,
+            "name": "GM Oboe",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 68
+        },
+        {
+            "panel_number": 180,
+            "name": "GM English Horn",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 69
+        },
+        {
+            "panel_number": 181,
+            "name": "GM Bassoon",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 70
+        },
+        {
+            "panel_number": 182,
+            "name": "GM Clarinet",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 71
+        },
+        {
+            "panel_number": 183,
+            "name": "GM Piccolo",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 72
+        },
+        {
+            "panel_number": 184,
+            "name": "GM Flute",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 73
+        },
+        {
+            "panel_number": 185,
+            "name": "GM Recorder",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 74
+        },
+        {
+            "panel_number": 186,
+            "name": "GM Pan Flute",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 75
+        },
+        {
+            "panel_number": 187,
+            "name": "GM Blown Bottle",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 76
+        },
+        {
+            "panel_number": 188,
+            "name": "GM Shakuhachi",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 77
+        },
+        {
+            "panel_number": 189,
+            "name": "GM Whistle",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 78
+        },
+        {
+            "panel_number": 190,
+            "name": "GM Ocarina",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 79
+        },
+        {
+            "panel_number": 191,
+            "name": "GM Lead 1 (square)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 80
+        },
+        {
+            "panel_number": 192,
+            "name": "GM Lead 2 (sawtooth)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 81
+        },
+        {
+            "panel_number": 193,
+            "name": "GM Lead 3 (calliope)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 82
+        },
+        {
+            "panel_number": 194,
+            "name": "GM Lead 4 (chiff)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 83
+        },
+        {
+            "panel_number": 195,
+            "name": "GM Lead 5 (charang)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 84
+        },
+        {
+            "panel_number": 196,
+            "name": "GM Lead 6 (voice)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 85
+        },
+        {
+            "panel_number": 197,
+            "name": "GM Lead 7 (fifth)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 86
+        },
+        {
+            "panel_number": 198,
+            "name": "GM Lead 8 (bass+Lead)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 87
+        },
+        {
+            "panel_number": 199,
+            "name": "GM Pad 1 (new age)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 88
+        },
+        {
+            "panel_number": 200,
+            "name": "GM Pad 2 (warm)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 89
+        },
+        {
+            "panel_number": 201,
+            "name": "GM Pad 3 (polysynth)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 90
+        },
+        {
+            "panel_number": 202,
+            "name": "GM Pad 4 (choir)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 91
+        },
+        {
+            "panel_number": 203,
+            "name": "GM Pad 5 (bowed)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 92
+        },
+        {
+            "panel_number": 204,
+            "name": "GM Pad 6 (metallic)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 93
+        },
+        {
+            "panel_number": 205,
+            "name": "GM Pad 7 (halo)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 94
+        },
+        {
+            "panel_number": 206,
+            "name": "GM Pad 8 (sweep)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 95
+        },
+        {
+            "panel_number": 207,
+            "name": "GM FX 1 (rain)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 96
+        },
+        {
+            "panel_number": 208,
+            "name": "GM FX 2 (soundtrack)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 97
+        },
+        {
+            "panel_number": 209,
+            "name": "GM FX 3 (crystal)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 98
+        },
+        {
+            "panel_number": 210,
+            "name": "GM FX 4 (atmosphere)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 99
+        },
+        {
+            "panel_number": 211,
+            "name": "GM FX 5 (brightness)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 100
+        },
+        {
+            "panel_number": 212,
+            "name": "GM FX 6 (goblins)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 101
+        },
+        {
+            "panel_number": 213,
+            "name": "GM FX 7 (echoes)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 102
+        },
+        {
+            "panel_number": 214,
+            "name": "GM FX 8 (sci-fi)",
+            "msb": 0,
+            "lsb": 0,
+            "program_change": 103
+        },
+        {
+            "panel_number": 215,
+            "name": "GM Sitar",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 104
+        },
+        {
+            "panel_number": 216,
+            "name": "GM Banjo",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 105
+        },
+        {
+            "panel_number": 217,
+            "name": "GM Shamisen",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 106
+        },
+        {
+            "panel_number": 218,
+            "name": "GM Koto",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 107
+        },
+        {
+            "panel_number": 219,
+            "name": "GM Kalimba",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 108
+        },
+        {
+            "panel_number": 220,
+            "name": "GM Bagpipe",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 109
+        },
+        {
+            "panel_number": 221,
+            "name": "GM Fiddle",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 110
+        },
+        {
+            "panel_number": 222,
+            "name": "GM Shanai",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 111
+        },
+        {
+            "panel_number": 223,
+            "name": "GM Tinkle Bell",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 112
+        },
+        {
+            "panel_number": 224,
+            "name": "GM Agogo",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 113
+        },
+        {
+            "panel_number": 225,
+            "name": "GM Steel Drums",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 114
+        },
+        {
+            "panel_number": 226,
+            "name": "GM Woodblock",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 115
+        },
+        {
+            "panel_number": 227,
+            "name": "GM Taiko Drum",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 116
+        },
+        {
+            "panel_number": 228,
+            "name": "GM Melodic Tom",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 117
+        },
+        {
+            "panel_number": 229,
+            "name": "GM Synth Drum",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 118
+        },
+        {
+            "panel_number": 230,
+            "name": "GM Reverse Cymbal",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 119
+        },
+        {
+            "panel_number": 231,
+            "name": "GM Guitar Fret Noise",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 120
+        },
+        {
+            "panel_number": 232,
+            "name": "GM Breath Noise",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 121
+        },
+        {
+            "panel_number": 233,
+            "name": "GM Seashore",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 122
+        },
+        {
+            "panel_number": 234,
+            "name": "GM Bird Tweet",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 123
+        },
+        {
+            "panel_number": 235,
+            "name": "GM Telephone Ring",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 124
+        },
+        {
+            "panel_number": 236,
+            "name": "GM Helicopter",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 125
+        },
+        {
+            "panel_number": 237,
+            "name": "GM Applause",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 126
+        },
+        {
+            "panel_number": 238,
+            "name": "GM Gunshot",
+            "msb": 0, 
+            "lsb": 0,
+            "program_change": 127
+        }
+    ]
+}
