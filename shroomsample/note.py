@@ -1,6 +1,7 @@
 import logging
 import threading
 import time
+from abc import abstractmethod
 from dataclasses import dataclass
 
 import mido
@@ -64,7 +65,7 @@ def midi_to_note(midi: int) -> str:
 def _send_midi_message(midi_out: mido.ports.BaseOutput, message: mido.Message):
     with _midi_send_lock:
         logging.debug(f"Sending MIDI message: {message}")
-        # midi_out.send(message)
+        midi_out.send(message)
 
 
 @dataclass
@@ -73,7 +74,7 @@ class Note:
     note_str: str | None = None  # e.g. "C4", "D#5"
     velocity: int = 64
     channel: int = 0
-    duration: float = 1.0
+    duration: float = 5.0
 
     def __post_init__(self):
         if self.note is not None and self.note_str is not None:
@@ -106,6 +107,31 @@ class Note:
 class Chord:
     notes: list[Note]
     arp_time: float = 0.0
+
+    @classmethod
+    def from_str(
+        cls, chord_str: str, octave: int, arp_time: float = 0.0, duration: float = 5.0
+    ) -> "Chord":
+        """
+        Create a Chord from a chord name in CHORDS.
+        The root note is placed in the given octave; all other notes are placed
+        in the nearest octave above the root (octave+1 if their pitch class is
+        below the root's pitch class, otherwise the same octave).
+        """
+        note_names = CHORDS[chord_str]
+        root_note_idx = NOTE_NAMES.index(note_names[0])
+        notes = []
+        for idx, name in enumerate(note_names):
+            note_idx = NOTE_NAMES.index(name.replace("Bb", "A#").replace("Eb", "D#"))
+            note_octave = octave + 1 if note_idx < root_note_idx else octave
+            print(f"{name}{note_octave}")
+            notes.append(
+                Note(
+                    note_str=f"{name}{note_octave}", duration=duration - arp_time * idx
+                )
+            )
+
+        return cls(notes=notes, arp_time=arp_time)
 
     def play(self, midi_out: mido.ports.BaseOutput):
         threads = []

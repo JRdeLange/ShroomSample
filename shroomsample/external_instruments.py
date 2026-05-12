@@ -29,17 +29,17 @@ class PSR270(ExternalInstrument):
 
     def select_voice(self, midi_out, channel=0):
         # Send the necessary MIDI messages to select this instrument
-        # midi_out.send(
-        #     mido.Message("control_change", control=0, value=self.msb, channel=channel)
-        # )
-        # midi_out.send(
-        #     mido.Message("control_change", control=32, value=self.lsb, channel=channel)
-        # )
-        # midi_out.send(
-        #     mido.Message("program_change", program=self.program_change, channel=channel)
-        # )
         logging.debug(
             f"Selected instrument {self.name} (Panel {self.panel_number}) with MSB={self.msb}, LSB={self.lsb}, Program Change={self.program_change}"
+        )
+        midi_out.send(
+            mido.Message("control_change", control=0, value=self.msb, channel=channel)
+        )
+        midi_out.send(
+            mido.Message("control_change", control=32, value=self.lsb, channel=channel)
+        )
+        midi_out.send(
+            mido.Message("program_change", program=self.program_change, channel=channel)
         )
 
 
