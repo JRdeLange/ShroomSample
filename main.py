@@ -5,8 +5,7 @@ import mido
 from upath import UPath
 
 from shroomsample.external_instruments import psr270_instruments
-from shroomsample.note import CHORDS
-from shroomsample.sample import all_chords, all_one_note
+from shroomsample.sample import all_notes, synthesize_all_chords
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
@@ -29,57 +28,48 @@ def progress_bar(progress, total, start_time, bar_length=40):
 
 
 def main():
+    base_output_path = UPath("output_flac/PSR270")
+
     start_time = time.time()
 
-    instruments = [psr270_instruments[n] for n in [1, 13, 33]]
-    notes = ["C", "F"]
-    chord_octaves = range(3, 5)
-    arp_times = [0.0, 0.1, 0.3]
+    instruments = [psr270_instruments[n] for n in [1]]
 
-    total_samples = len(instruments) * (
-        len(notes) * 7 + len(chord_octaves) * len(arp_times) * len(CHORDS)
-    )
+    note_octaves = range(2, 8)
+    chord_octaves = range(3, 7)
+
+    arp_times = [0.0, 0.03, 0.05, 0.1, 0.2, 0.3]
+
+    # 12 notes × 7 octaves × 2 velocities (hard + soft) per instrument
+    total_samples = len(instruments) * 12 * len(note_octaves) * 2
     logging.info(f"Total samples to be recorded: {total_samples}")
 
     recorded_samples = 0
     with mido.open_output("U2MIDI Pro 1") as midi_out:
         for instrument in instruments:
-            instrument.select_voice(midi_out)
-            logging.info(f"Selected instrument: {instrument.name}")
-            logging.info(f"Recording notes for {instrument.name}...")
-            all_one_note(
+            logging.info(f"Recording all notes for {instrument.name}...")
+            all_notes(
                 instrument,
                 midi_out,
-                UPath(f"output/PSR270/{instrument.name}/notes"),
-                "C",
+                base_output_path / f"{instrument.name}/notes",
+                "Line In (High Definition Audio Device), Windows WASAPI",
+                octaves=note_octaves,
             )
-            recorded_samples += 7
-            progress_bar(recorded_samples, total_samples, start_time)
-            all_one_note(
-                instrument,
-                midi_out,
-                UPath(f"output/PSR270/{instrument.name}/notes"),
-                "F",
-            )
-            recorded_samples += 7
+            recorded_samples += 12 * len(note_octaves) * 2
             progress_bar(recorded_samples, total_samples, start_time)
 
-            logging.info(f"Recording chords for {instrument.name}...")
-            for chord_octave in range(2, 7):
-                logging.info(f"Recording chords with root octave {chord_octave}...")
-                for arp_time in [0.0, 0.05, 0.2]:
-                    logging.info(f"Recording chords with arp_time {arp_time}...")
-                    all_chords(
-                        instrument,
-                        midi_out,
-                        UPath(
-                            f"output/PSR270/{instrument.name}/chords/octave_{chord_octave}_arp_{arp_time}"
-                        ),
+            for chord_octave in chord_octaves:
+                for arp_time in arp_times:
+                    logging.info(
+                        f"Synthesizing chords for {instrument.name}, octave {chord_octave}, arp_time {arp_time}..."
+                    )
+                    synthesize_all_chords(
+                        notes_folder=base_output_path / f"{instrument.name}/notes",
+                        output_folder=base_output_path
+                        / f"{instrument.name}/chords_concat/octave_{chord_octave}_arp_{arp_time}",
                         octave=chord_octave,
                         arp_time=arp_time,
+                        concat_chords=True,
                     )
-                    recorded_samples += len(CHORDS)
-                    progress_bar(recorded_samples, total_samples, start_time)
 
 
 if __name__ == "__main__":

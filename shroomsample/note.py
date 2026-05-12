@@ -1,55 +1,52 @@
 import logging
 import threading
 import time
-from abc import abstractmethod
 from dataclasses import dataclass
 
 import mido
 
-logging.basicConfig(
-    level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s"
-)
+logger = logging.getLogger(__name__)
 
 _midi_send_lock = threading.Lock()
 
-NOTE_NAMES = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"]
+NOTE_NAMES = ["C", "C_#", "D", "D_#", "E", "F", "F_#", "G", "G_#", "A", "A_#", "B"]
 
 CHORDS = {
     "C": ["C", "E", "G"],
-    "Cm": ["C", "D#", "G"],
-    "C#": ["C#", "F", "G#"],
-    "C#m": ["C#", "E", "G#"],
-    "D": ["D", "F#", "A"],
+    "Cm": ["C", "D_#", "G"],
+    "C_#": ["C_#", "F", "G_#"],
+    "C_#m": ["C_#", "E", "G_#"],
+    "D": ["D", "F_#", "A"],
     "Dm": ["D", "F", "A"],
-    "D#": ["D#", "G", "A#"],
-    "D#m": ["D#", "F#", "A#"],
-    "E": ["E", "G#", "B"],
+    "D_#": ["D_#", "G", "A_#"],
+    "D_#m": ["D_#", "F_#", "A_#"],
+    "E": ["E", "G_#", "B"],
     "Em": ["E", "G", "B"],
     "F": ["F", "A", "C"],
-    "Fm": ["F", "G#", "C"],
-    "F#": ["F#", "A#", "C#"],
-    "F#m": ["F#", "A", "C#"],
+    "Fm": ["F", "G_#", "C"],
+    "F_#": ["F_#", "A_#", "C_#"],
+    "F_#m": ["F_#", "A", "C_#"],
     "G": ["G", "B", "D"],
-    "Gm": ["G", "A#", "D"],
-    "G#": ["G#", "C", "D#"],
-    "G#m": ["G#", "B", "D#"],
-    "A": ["A", "C#", "E"],
+    "Gm": ["G", "A_#", "D"],
+    "G_#": ["G_#", "C", "D_#"],
+    "G_#m": ["G_#", "B", "D_#"],
+    "A": ["A", "C_#", "E"],
     "Am": ["A", "C", "E"],
-    "A#": ["A#", "D", "F"],
-    "A#m": ["A#", "C#", "F"],
-    "B": ["B", "D#", "F#"],
-    "Bm": ["B", "D", "F#"],
+    "A_#": ["A_#", "D", "F"],
+    "A_#m": ["A_#", "C_#", "F"],
+    "B": ["B", "D_#", "F_#"],
+    "Bm": ["B", "D", "F_#"],
 }
 
 
 def note_to_midi(name: str) -> int:
-    # e.g. "C4", "F#3", "Bb2"
+    # e.g. "C4", "F_#3", "Bb2"
     name = (
-        name.replace("Bb", "A#")
-        .replace("Eb", "D#")
-        .replace("Ab", "G#")
-        .replace("Db", "C#")
-        .replace("Gb", "F#")
+        name.replace("Bb", "A_#")
+        .replace("Eb", "D_#")
+        .replace("Ab", "G_#")
+        .replace("Db", "C_#")
+        .replace("Gb", "F_#")
     )
     octave = int(name[-1])
     note = name[:-1]
@@ -64,14 +61,14 @@ def midi_to_note(midi: int) -> str:
 
 def _send_midi_message(midi_out: mido.ports.BaseOutput, message: mido.Message):
     with _midi_send_lock:
-        logging.debug(f"Sending MIDI message: {message}")
+        logger.debug(f"Sending MIDI message: {message}")
         midi_out.send(message)
 
 
 @dataclass
 class Note:
     note: int | None = None  # MIDI note number (0-127)
-    note_str: str | None = None  # e.g. "C4", "D#5"
+    note_str: str | None = None  # e.g. "C4", "D_#5"
     velocity: int = 64
     channel: int = 0
     duration: float = 5.0
@@ -122,9 +119,8 @@ class Chord:
         root_note_idx = NOTE_NAMES.index(note_names[0])
         notes = []
         for idx, name in enumerate(note_names):
-            note_idx = NOTE_NAMES.index(name.replace("Bb", "A#").replace("Eb", "D#"))
+            note_idx = NOTE_NAMES.index(name.replace("Bb", "A_#").replace("Eb", "D_#"))
             note_octave = octave + 1 if note_idx < root_note_idx else octave
-            print(f"{name}{note_octave}")
             notes.append(
                 Note(
                     note_str=f"{name}{note_octave}", duration=duration - arp_time * idx

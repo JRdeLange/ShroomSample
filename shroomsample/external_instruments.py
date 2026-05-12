@@ -3,11 +3,10 @@ import logging
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
 
-logging.basicConfig(
-    level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s"
-)
-
 import mido
+
+logger = logging.getLogger(__name__)
+
 
 CONFIGS_PATH = "data/psr_270.json"
 
@@ -29,7 +28,7 @@ class PSR270(ExternalInstrument):
 
     def select_voice(self, midi_out, channel=0):
         # Send the necessary MIDI messages to select this instrument
-        logging.debug(
+        logger.debug(
             f"Selected instrument {self.name} (Panel {self.panel_number}) with MSB={self.msb}, LSB={self.lsb}, Program Change={self.program_change}"
         )
         midi_out.send(
