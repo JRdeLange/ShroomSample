@@ -1,11 +1,15 @@
 import logging
 import time
 
+# set audio extension project-wide before importing shroomsample modules
+import shroomsample.constants as _const
+
 import mido
 from upath import UPath
 
 from shroomsample.external_instruments import psr270_instruments
-from shroomsample.sample import all_notes, synthesize_all_chords
+from shroomsample.sample import all_notes
+from shroomsample.synthesize import synthesize_all_chords
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
